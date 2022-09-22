@@ -45,3 +45,24 @@ h1 {
   box-shadow: 4px 4px black;
   border-radius: 50%;
 }
+
+article {
+  background: top / contain 
+              no-repeat
+              url("top-image.png");
+  background: top / contain
+              no-repeat
+              url("top-image.png"),
+              bottom / contain
+              no-repeat
+              url("bottom-image.png"),
+              linear-gradient(rgba(0,0,0,0,25) 0%,
+                              rgba(0,0,0,0) 25%,
+                              rgba(0,0,0,) 75%,
+                              rgba(0,0,0,0,25) 100%);
+background-color: #fff;
+border-top: 1mm solid red;
+border-bottom: 1 mm solid red;
+
+
+}
