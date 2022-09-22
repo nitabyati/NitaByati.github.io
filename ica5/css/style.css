@@ -20,8 +20,8 @@ article {
 
 address {
   position: absolute;
-  bottom: 8mm;
-  right: 20mm;
+  bottom: 10mm;
+  right: 5mm;
 }
 
 h1 {
@@ -39,3 +39,9 @@ h1 {
 }
 
 /* Your CSS below here */
+
+h1 {
+  background-image: url("./img/logo.png");
+  box-shadow: 4px 4px black;
+  border-radius: 50%;
+}
