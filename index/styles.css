@@ -1,0 +1,24 @@
+p {
+    font-family: Helvetica;
+}
+header {
+    color:#435773;
+    font-family: 'Helvetica';
+    font-weight: bold;
+}
+img {
+    border: 5px solid #d991a4;
+    height: 130;
+    width: 100;
+}
+a:link {
+    color: #435773;
+  }
+  
+  a:visited {
+    color: #f2c4c4;
+  }
+  
+  a:hover {
+    color: #354a73;
+  }
