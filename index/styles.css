@@ -4,35 +4,40 @@ body {
 p {
     font-family: Helvetica;
     color: #DA4891; 
+    position: relative;
+    position: absolute;
+    left: 821px;
+    top: 350;
+    font-weight: bold;
+    font-size: 49;
 }
 h1 {
     color:#DA4891;
     font-family: 'Helvetica';
-    font-weight: bold;
+    font-weight: bolder;
     line-height: 174px;
     position: absolute;
     width: 570;
     height: 174px;
     left: 60;
-    top: 104px;
-    font-size: 80;
-
+    top: 60px;
+    font-size: 120;
 }
 img {
     border: 5px solid #364A73;
     position: absolute;
     width: 400px; 
-    height: 394px;
+    height: 390px;
     left: 60px;
     top: 318px;
-
 }
+
 a:link {
-    color: #435773;
+    color: #f2c4c4;
   }
   
   a:visited {
-    color: #f2c4c4;
+    color: #DA4891;
   }
   
   a:hover {
