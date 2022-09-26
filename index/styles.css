@@ -23,7 +23,7 @@ h1 {
     top: 60px;
     font-size: 120;
 }
-img {
+.me {
     border: 5px solid #364A73;
     position: absolute;
     width: 400px; 
@@ -31,13 +31,20 @@ img {
     left: 60px;
     top: 318px;
 }
+.logo {
+    float: right;
+    width: 100px;
+    height: 200px;
+    object-fit: contain;
+
+  }
 
 a:link {
-    color: #f2c4c4;
+    color: #DA4891;
   }
   
   a:visited {
-    color: #DA4891;
+    color: #f2ebdc;
   }
   
   a:hover {
