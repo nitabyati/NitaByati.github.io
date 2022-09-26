@@ -1,15 +1,31 @@
+body {
+  background-color: #1D1A1A; 
+}
 p {
     font-family: Helvetica;
+    color: #DA4891; 
 }
-header {
-    color:#435773;
+h1 {
+    color:#DA4891;
     font-family: 'Helvetica';
     font-weight: bold;
+    line-height: 174px;
+    position: absolute;
+    width: 570;
+    height: 174px;
+    left: 60;
+    top: 104px;
+    font-size: 80;
+
 }
 img {
-    border: 5px solid #d991a4;
-    height: 130;
-    width: 100;
+    border: 5px solid #364A73;
+    position: absolute;
+    width: 400px; 
+    height: 394px;
+    left: 60px;
+    top: 318px;
+
 }
 a:link {
     color: #435773;
