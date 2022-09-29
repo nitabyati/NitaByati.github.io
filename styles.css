@@ -9,9 +9,9 @@ p {
     position: relative;
     position: absolute;
     left: 821px;
-    top: 350;
+    top: 350px;
     font-weight: bold;
-    font-size: 49;
+    font-size: 49px;
 }
 h1 {
     color:#DA4891;
@@ -19,14 +19,15 @@ h1 {
     font-weight: bolder;
     line-height: 174px;
     position: absolute;
-    width: 570;
+    width: 570px;
     height: 174px;
-    left: 60;
+    left: 60px;
     top: 60px;
-    font-size: 120;
+    font-size: 120px;
 }
 @media screen and (max-width: 600px) {
   h1 {
+    display: grid;
     font-size: 50px;
   }
 }
@@ -47,6 +48,7 @@ h1 {
   }
   @media  screen and (max-width: 600px) {
     .logo {
+    display: grid;
     display: none; 
     }
     } 
