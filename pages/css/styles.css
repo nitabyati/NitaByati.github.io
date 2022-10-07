@@ -1,4 +1,4 @@
-html {background-color: #1D1A1A}
+html body{background-color: #1D1A1A}
 
 p {
   font-family: helvetica;
@@ -30,6 +30,12 @@ h1 {
     display: grid;
     font-size: 50px;
   }
+
+h2 {
+  font-family: helvetica;
+  font-size: 100px;
+  font-size: 100px;
+}
 }
 .me {
     border: 5px solid #364A73;
