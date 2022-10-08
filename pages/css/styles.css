@@ -12,6 +12,7 @@ p {
     top: 350px;
     font-weight: bold;
     font-size: 49px;
+    flex:grid;
 }
 h1 {
     color:#DA4891;
@@ -52,12 +53,35 @@ h2 {
     object-fit: contain;
 
   }
-  @media  screen and (max-width: 600px) {
+  /* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+  @media  screen and (max-width: 700px) {
     .logo {
     display: grid;
     display: none; 
     }
-    } 
+    .row, .navbar {   
+        flex-direction: column;
+      }
+    }
 a:link {
     color: #DA4891;
   }
