@@ -1,18 +1,21 @@
 h1 {
-  font-family: helvetica, arial, sans-serif;
+  font-family: helvetica;
   text-align: center;
+  font-size:100px;
+  color: #DA4891;
 }
 
 body {
   width: 640px;
   margin: 0 auto;
+  background-color: #1D1A1A;
 }
 
 .full-img {
   position: relative;
   display: block;
-  width: 640px;
-  height: 480px;
+  width: auto;
+  height: auto;
 }
 
 .overlay {
@@ -20,7 +23,7 @@ body {
   top: 0;
   left: 0;
   width: 640px;
-  height: 480px;
+  height: 600px;
   background-color: rgba(0,0,0,0);
 }
 
