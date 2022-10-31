@@ -1,3 +1,4 @@
+//problems 1-3, 6
 const json = {
 
     "name":"Tech Stars",
@@ -8,33 +9,52 @@ const json = {
         "department": "Tech",
         "designation": "Manager",
         "salary": "40000",
-        "raiseEligible": "true"
+        "raiseEligible": "true",
+        "wfh": "true"
     },
     {
         "name": "Mary",
         "department": "Finance",
         "designation": "Trainee",
         "salary": "18500",
-        "raiseEligible": "true"
+        "raiseEligible": "true",
+        "wfh": "false"
+
     },
     {
         "name": "Bill",
         "department": "HR",
         "designation": "Executive",
         "salary": "21200",
-        "raiseEligible": "false"
+        "raiseEligible": "false",
+        "wfh": "false"
+
     },  
     
     {
             "name": "Anna",
             "department": "Tech",
             "designation": "Executive",
-            "salary": "40025600",
-            "raiseEligible": "fast"
+            "salary": "25600",
+            "raiseEligible": "false",
+            "wfh": "true"
         }
     
         ]
 };
+//problem 4: 
 
+console.log(json);
 
+function TotalSalary(){
+    const sum = [40000,18500,21200,25699].reduce((partialSum, a) => partialSum + a, 0);
+}
 
+//problem 5
+
+function updateSalary (){
+    if (raiseEligible = true) {
+        salary = 'update';
+    }
+    
+}
