@@ -1,3 +1,4 @@
+
 const myElement = document.getElementById("coords");
 
 function getLocation() {
