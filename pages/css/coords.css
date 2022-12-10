@@ -1,0 +1,41 @@
+body {
+    background-color: #1D1A1A
+}
+h1 {
+    font-family: helvetica;
+    text-align: center;
+    font-weight: bold;
+    color: #DA4891;
+    font-size: 50px;
+}
+
+button {
+    font-family: helvetica;
+    background-color: #364A73;
+    color: #f2ebdc;
+    display: inline-block;
+    font-size: 18px;
+
+}
+.navbar {
+    background-color: #364A73;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    padding: .5em;
+  }
+  .navbar a {
+    color: #f2ebdc;
+    font-family: helvetica;
+    padding: 150px 152px;
+
+  }
+  
+  /* color of links on hover */
+  .navbar a:hover {
+    color: #DA4891;
+  }
+
+

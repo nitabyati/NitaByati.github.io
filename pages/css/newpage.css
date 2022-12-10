@@ -1,0 +1,20 @@
+.navbar {
+    background-color: #364A73;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    padding: .5em;
+  }
+  .navbar a {
+    color: #f2ebdc;
+    font-family: helvetica;
+    padding: 150px 152px;
+
+  }
+  
+  /* color of links on hover */
+  .navbar a:hover {
+    color: #DA4891;
+  }
